@@ -32,7 +32,7 @@ class HomeIndex extends React.Component {
                         <article>
                             <header className="major">
                                 <h3>Why should I eat slower?</h3>
-                                <p>Did you know it takes 20 minutes for the brain to understand the full range of satiety signals?</p>
+                                <p>The brain takes 20 minutes to understand the full range of satiety signals</p>
                             </header>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
@@ -41,9 +41,16 @@ class HomeIndex extends React.Component {
                         </article>
                         <article>
                             <header className="major">
-                                <h3>Benefits</h3>
-                                <p>By eating slower you can improve your digestion and eat less. But don't take our word for it, instead rely on accredited university studies
+                                <h3>Benefit</h3>
+                                <p>By eating slower you can improve your digestion and eat less. But don't take our word for it, instead rely on accredited university studies: 
                                 <a href="https://www.ncbi.nlm.nih.gov/pubmed/18589027">[1]</a>
+                                <a href="https://bmjopen.bmj.com/content/8/1/e019589">[2]</a>
+                                <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3544627/">[3]</a>
+                                <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4212566/">[4]</a>
+                                <a href="https://www.ncbi.nlm.nih.gov/pubmed/21802566">[5]</a>
+                                <a href="https://www.ahajournals.org/doi/abs/10.1161/circ.136.suppl_1.20249">[6]</a>
+                                <a href="https://today.uri.edu/news/uri-researcher-provides-further-evidence-that-slow-eating-reduces-food-intake">[7]</a>
+                                <a href="https://blogs.bmj.com/bmjopen/2018/02/12/slow-eating-speed-may-be-linked-to-weight-loss/">[8]</a>
                                 </p>
                             </header>
                         </article>
@@ -52,7 +59,6 @@ class HomeIndex extends React.Component {
                                 <h3>How it works?</h3>
                                 <p>Measure how fast you eat and number of bites using the front facing camera of your phone.</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                         </article>
