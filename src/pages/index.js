@@ -63,9 +63,14 @@ class HomeIndex extends React.Component {
                     <section id="two">
                         <div className="inner">
                             <header className="major">
-                                <h2>Massa libero</h2>
+                                <h2>The Challenge</h2>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+                            <h3>Day 1 - Assess</h3>
+                            <p>In the first day you are going to use the app to record every bite you take during the day. This will allow to set a baseline of how fast you eat.</p>
+                            <h3>Day 2 to 7 - Measure and Learn</h3>
+                            <p>In the following days the app will give you information before, while and after you eat. This will allow you to understand your goals and how to achieve them.</p>
+                            <h3>Day 7 - Predict</h3>
+                            <p>In the last day the app will give you a report of your progress during the week and predict how you will improve along the year.</p>
                             <ul className="actions">
                                 <li><Link to="/landing" className="button next">Get Started</Link></li>
                             </ul>
