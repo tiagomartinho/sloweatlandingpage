@@ -7,9 +7,6 @@ import Banner from '../components/Banner'
 import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
-import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
 
 class HomeIndex extends React.Component {
     render() {
@@ -35,14 +32,14 @@ class HomeIndex extends React.Component {
                                 <p>The brain takes 20 minutes to understand the full range of satiety signals</p>
                             </header>
                         </article>
-                        <article style={{backgroundImage: `url(${pic02})`}}>
+                        <article style={{backgroundImage: `url(${pic01})`}}>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                         </article>
                         <article>
                             <header className="major">
                                 <h3>Benefit</h3>
-                                <p>By eating slower you can improve your digestion and eat less. But don't take our word for it, instead rely on accredited university studies: 
+                                <p>By eating slower you can improve your digestion and eat less. But don't take our word for it, instead rely on accredited university studies:
                                 <a href="https://www.ncbi.nlm.nih.gov/pubmed/18589027">[1]</a>
                                 <a href="https://bmjopen.bmj.com/content/8/1/e019589">[2]</a>
                                 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3544627/">[3]</a>
@@ -60,7 +57,7 @@ class HomeIndex extends React.Component {
                                 <p>Measure how fast you eat and number of bites using the front facing camera of your phone.</p>
                             </header>
                         </article>
-                        <article style={{backgroundImage: `url(${pic04})`}}>
+                        <article style={{backgroundImage: `url(${pic03})`}}>
                         </article>
                     </section>
                     <section id="two">
