@@ -111,12 +111,22 @@
 				&:before {
 					background-color: _palette(accent2);
 				}
+				&:hover {
+				 &:before {
+					 opacity: 0;
+				 }
+			 }
 			}
 
 			&:nth-child(6n - 3) {
 				&:before {
 					background-color: _palette(accent3);
 				}
+				&:hover {
+				 &:before {
+					 opacity: 0;
+				 }
+			 }
 			}
 
 			&:nth-child(6n - 2) {
@@ -135,6 +145,11 @@
 				&:before {
 					background-color: _palette(accent6);
 				}
+				&:hover {
+				 &:before {
+					 opacity: 0;
+				 }
+			 }
 			}
 		}
 
