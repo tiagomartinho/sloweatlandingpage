@@ -7,6 +7,8 @@ import Banner from '../components/Banner'
 import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
+import summary from '../assets/images/summary.png'
+import tracking from '../assets/images/tracking.png'
 
 class HomeIndex extends React.Component {
     render() {
@@ -67,8 +69,10 @@ class HomeIndex extends React.Component {
                             </header>
                             <h3>Day 1 - Assess</h3>
                             <p>In the first day you are going to use the app to record every bite you take during the day. This will allow to set a baseline of how fast you eat.</p>
+                            <span className="image fit"><img src={tracking} alt=""/></span>
                             <h3>Day 2 to 7 - Measure and Learn</h3>
                             <p>In the following days the app will give you information before, while and after you eat. This will allow you to understand your goals and how to achieve them.</p>
+                            <span className="image fit"><img src={summary} alt=""/></span>
                             <h3>Day 7 - Predict</h3>
                             <p>In the last day the app will give you a report of your progress during the week and predict how you will improve along the year.</p>
                             <ul className="actions">
